@@ -46,7 +46,7 @@ REDSHIFT_PORT
 ## Running the pipeline
 To run the pipeline, use the following command:
 ```
-airflow run <DAG_ID> <TASK_ID> <EXECUTION_DATE>
+airflow run data_pipeline <TASK_ID> <EXECUTION_DATE>
 ```
 ## Built With
 - Airflow - Data orchestration

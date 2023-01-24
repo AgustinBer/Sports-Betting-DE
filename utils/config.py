@@ -1,5 +1,6 @@
 import os
 
+
 class Config:
     MINIO_ENDPOINT = os.getenv("MINIO_ENDPOINT")
     MINIO_ACCESS_KEY = os.getenv("MINIO_ACCESS_KEY")
