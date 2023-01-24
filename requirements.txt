@@ -1,0 +1,9 @@
+airflow
+psycopg2
+pandas
+beautifulsoup4
+requests
+minio
+boto3
+pyspark
+great_expectations
