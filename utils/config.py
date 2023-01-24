@@ -1,0 +1,12 @@
+import os
+
+class Config:
+    MINIO_ENDPOINT = os.getenv("MINIO_ENDPOINT")
+    MINIO_ACCESS_KEY = os.getenv("MINIO_ACCESS_KEY")
+    MINIO_SECRET_KEY = os.getenv("MINIO_SECRET_KEY")
+    MINIO_BUCKET_NAME = os.getenv("MINIO_BUCKET_NAME")
+
+    REDSHIFT_ENDPOINT = os.getenv("REDSHIFT_ENDPOINT")
+    REDSHIFT_USER = os.getenv("REDSHIFT_USER")
+    REDSHIFT_PASSWORD = os.getenv("REDSHIFT_PASSWORD")
+    REDSHIFT_DB = os.getenv("REDSHIFT_DB")
